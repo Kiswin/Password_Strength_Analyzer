@@ -59,11 +59,12 @@ The total score determines the strength category.
 Password Reuse Prevention
 
 When enabled, passwords are hashed before storage. The program compares hashes instead of storing plain-text passwords.
-Example hashing:
-
+## Example hashing:
+'''text
 import hashlib
 
 hashed = hashlib.sha256(password.encode()).hexdigest()
+'''
 
 Learning Outcomes
 
