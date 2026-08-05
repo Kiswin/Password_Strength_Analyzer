@@ -43,3 +43,46 @@ Suggestions:
 
 Suggested stronger password:
 T8@qLm2#Zp9!Rx4W
+
+How It Works
+
+The analyzer assigns points for:
+
+Password length
+Uppercase letters
+Lowercase letters
+Numbers
+Special characters
+
+The total score determines the strength category.
+
+Password Reuse Prevention
+
+When enabled, passwords are hashed before storage. The program compares hashes instead of storing plain-text passwords.
+Example hashing:
+
+import hashlib
+
+hashed = hashlib.sha256(password.encode()).hexdigest()
+
+Learning Outcomes
+
+This project helps you understand:
+
+Password security
+Entropy and password complexity
+Hashing and salting
+Secure password storage
+Authentication best practices
+Future Improvements
+Graphical user interface
+Web application version
+Breached password database check
+Real-time strength meter
+Advanced entropy calculation
+
+Author
+
+Kiswin S K
+
+Cybersecurity and Software Development Project
