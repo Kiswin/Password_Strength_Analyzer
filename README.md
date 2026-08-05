@@ -32,7 +32,7 @@ password-strength-analyzer/
 ```
 
 
-Installation
+## Installation
 Enter password: hello123
 
 Password Strength: Weak
@@ -44,7 +44,7 @@ Suggestions:
 Suggested stronger password:
 T8@qLm2#Zp9!Rx4W
 
-How It Works
+## How It Works
 
 The analyzer assigns points for:
 
@@ -56,17 +56,17 @@ Special characters
 
 The total score determines the strength category.
 
-Password Reuse Prevention
+## Password Reuse Prevention
 
 When enabled, passwords are hashed before storage. The program compares hashes instead of storing plain-text passwords.
-## Example hashing:
+# Example hashing:
 '''text
 import hashlib
 
 hashed = hashlib.sha256(password.encode()).hexdigest()
 '''
 
-Learning Outcomes
+## Learning Outcomes
 
 This project helps you understand:
 
@@ -82,8 +82,6 @@ Breached password database check
 Real-time strength meter
 Advanced entropy calculation
 
-Author
+## Author
 
 Kiswin S K
-
-Cybersecurity and Software Development Project
